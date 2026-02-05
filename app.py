@@ -3,7 +3,7 @@ from groq import Groq
 
 # 1. Configurazione Iniziale
 st.set_page_config(page_title="La mia IA Psicologo", page_icon="🔥")
-st.title("🧠 Chat AI Psicologo")
+st.markdown("<h1 style='text-align: center;'>🧠 Chat AI Psicologo</h1>", unsafe_allow_html=True)
 
 # 2. Inserisci la tua API Key qui (quella che hai preso prima)
 API_KEY = st.secrets["GROQ_API_KEY"]
